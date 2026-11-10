@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mijn portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="js/script .js"></script>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Alien+Block&family=Black+Ops+One&family=Honk:MORF@15&family=Lobster&family=Nabla:EHLT@21&display=swap');
 </style>
+
 <body>
     <header>
         <div id="logo"><img src="RvH-Logo-techHexagon.svg"></div>
         <h1 id="tietel"><strong>Portfolio Rune</strong></h1>
         <img id="robotje" src="download.gif">
+        <div id="tekstballon"></div>
     </header>
-        <nav id="navigatie">
-        <a class="knop" href="index.html">Home</a>&nbsp;&nbsp;&#8900;&nbsp;
-        <a class="knop" href="#Skills">Skills</a>&nbsp;&nbsp;&#8900;&nbsp;
-        <a class="knop" href="#Projecten">Projecten</a>&nbsp;&nbsp;&#8900;&nbsp;
+    <nav id="navigatie">
+        <a class="knop" href="index.html">Home</a>&nbsp;&#8900;&nbsp;
+        <a class="knop" href="#Skills">Skills</a>&nbsp;&#8900;&nbsp;
+        <a class="knop" href="#Projecten">Projecten</a>&nbsp;&#8900;&nbsp;
         <a class="knop" href="#Contact">Contact</a>&nbsp;&nbsp;&nbsp;
         <input class="knop" type="search" placeholder="zoek&nbsp;&telrec;" id="zoekbalk">
     </nav>
     <main>
         <section id="Home">
             <h2 class="tussentietels">Wie ben ik?</h2>
-            <div>Ik ben een leerling applicatie en databeheer aan de wico</div>
+            <div>Ik ben Rune, een gedreven student aplicatie en databeheer aan wico met een passie voor software development.</div>
             <br><br><br><br><br><br><br><br><br><br><br>
         </section>
         <section id="Skills">
@@ -43,7 +45,17 @@
         </section>
         <section id="Contact">
             <h2 class="tussentietels">Contact</h2>
+            <section id="contact_forms">
+                <label for="voornaam">Voornaam:</label>&nbsp;&nbsp;&nbsp;
+                <input class="form" type="text" id="voornaam" name="voornaam" placeholder="voornaam"><br>
+                <label for="achternaam">Achternaam:</label>
+                <input class="form" type="text" id="Achternaam" name="Achternaam" placeholder="achternaam"><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
+                    class="form" id="knopforms">Verzenden</button>
+            </section>
+            <footer id="footer">&copy; Rune Van Helden - 2026</footer>
             <br><br><br><br><br><br><br><br><br><br><br>
         </section>
     </main>
 </body>
+</html>
