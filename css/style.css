@@ -1,20 +1,21 @@
 body {
-    background-color: rgba(4, 53, 74, 0.607);
-    color: white;
-    background-position-x: center;
-    background-attachment: fixed;
+  background-color: rgba(4, 53, 74, 0.607);
+  color: white;
+  background-position-x: center;
+  background-attachment: fixed;
 }
 
 #tietel {
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    text-align: center;
-    margin: 0px;
-    font-family: honk;
-    font-size: 70px;
-    text-shadow: 10px 10px 10px rgba(4, 53, 74, 0.607);
-    transition: 0.2 ease;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+  font-family: honk;
+  font-size: 70px;
+  text-shadow: 10px 10px 10px rgba(4, 53, 74, 0.607);
+  transition: 0.2 ease;
 }
+
 .tussentietels {
   font-family: honk;
   font-weight: bold;
@@ -25,22 +26,23 @@ body {
 }
 
 #logo {
-    width: 75px;
-    height: auto;
-    position: absolute;
-    left: 45px;
-    top: 12.5px;
-    border: 4px solid white;
-    border-radius: 75px;
-    box-shadow: 0px 0px 20px black;
+  width: 75px;
+  height: auto;
+  position: absolute;
+  left: 45px;
+  top: 12.5px;
+  border: 4px solid white;
+  border-radius: 75px;
+  box-shadow: 0px 0px 20px black;
 }
 
 #robotje {
-    width: 150px;
-    position: absolute;
-    top: 15px;
-    right: 30px;
+  width: 150px;
+  position: absolute;
+  top: 15px;
+  right: 30px;
 }
+
 #navigatie {
   background-color: rgb(70, 125, 148);
   width: 750px;
@@ -52,10 +54,10 @@ body {
   padding: 3px;
   margin: 2px auto;
   box-shadow: 0px 0px 20px black;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  z-index:1;
+  z-index: 1;
 }
 
 .knop {
@@ -89,6 +91,7 @@ body {
 ::placeholder {
   color: white
 }
+
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -102,22 +105,28 @@ body {
   border-radius: 10px;
   border: 2px solid white;
 }
+
 #Home {
   border: 4px solid white;
   border-radius: 30px;
   box-shadow: 0px 0px 10px black;
-  padding-left: 15px;
-  padding-top: 3px;
+  padding:3px 170px 3px 15px;
   margin: 20px;
   position: relative;
-  #profielfoto {
-    height: 100px;
-    width: auto;
+}
+#Home>div{
+  font-size:20px;
+}
+#profielfoto {
+    width:100px;
+    height: auto;
     border: 3px solid black;
     border-radius: 50px;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 20px black; 
+    position:absolute;
+    top:20px;
+    right:20px;  
   }
-}
 
 #Skills {
   border: 4px solid white;
@@ -149,40 +158,13 @@ body {
   position: relative;
 }
 
-#contact_forms{
-  background-color:rgb(70, 125, 148);
-  position:absolute;
-  right:20px;
-  top:20px;
-  border:4px solid white;
-  border-radius:20px;
-  padding:10px;
-  padding-right:50px;
-  box-shadow: 0px 0px 20px black;
-}
-.form{
-  font-size:20px;
-  background-color:rgba(4, 53, 74, 0);
-  border:4px solid white;
-  border-radius:20px;
-  margin:5px;
-  padding:5px;
-  color:white;
-}
-#mesage{
-  height:50px;
-}
-:hover#knopforms{
-  background-color: rgba(4, 53, 74, 0.607);
-}
-
 #tekstballon {
   position: absolute;
-  top:20px;
-  right:170px;
+  top: 20px;
+  right: 170px;
   background: rgba(4, 53, 74, 0.607);
   padding: 15px;
-  border:2px solid white;
+  border: 2px solid white;
   border-radius: 10px;
   width: 150px;
 }
@@ -191,7 +173,7 @@ body {
   content: '';
   position: absolute;
   right: -15px;
-  bottom: 15px; 
+  bottom: 15px;
   border: 15px solid transparent;
   border-left-color: white;
   border-right: 0;
